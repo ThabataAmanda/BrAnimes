@@ -49,7 +49,169 @@ header nav a {
     text-transform: uppercase;
 }
 
-header nav a:hover{
-    background-color:#ffff00;
+header nav a:hover {
+    background-color: #ffff00;
     color: black;
 }
+
+footer{
+    background-color: #000;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
+
+footer.container nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+footer nav a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+footer nav a:hover {
+    color: #ffff00;
+    text-decoration: overline underline;
+}
+
+main {
+    margin: auto;
+    width: 960px;
+    min-height: 450px;
+}
+
+main h1 {
+    text-align: center;
+}
+
+.texto_banner {
+    font-size: 30pt;
+    text-align: center;
+    margin: 20px 0px;
+}
+
+#assistir,
+#assinar {
+    text-decoration: none;
+    background-color: rgb(102, 120, 237);
+    display: block;
+    width: 300px;
+    height: 50px;
+    color: #fff;
+    margin: auto;
+    font-size: 18pt;
+    line-height: 50px;
+    border-radius: 20px;
+    box-shadow: 0px 2px 7px #000;
+}
+
+.destaque {
+    background-color: rgba(59, 80, 200, 0.183);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px #000;
+}
+
+.destaque,
+div {
+    display: flex;
+}
+
+.destaque figure img {
+    width: 120px;
+
+}
+
+.programacao {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.programacao h3 {
+    width: 100%;
+}
+
+.programacao article img {
+    width: 150px
+}
+
+.programacao article {
+    width: 50%;
+    display: flex;
+    padding: 20px;
+    box-sizing: border-box, ;
+}
+
+.programacao article section {
+    padding: 30px;
+}
+
+#galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#galeria img {
+    width: 200px;
+    margin: 10px 8px;
+}
+
+#destaquep {
+    display: flex;
+    justify-content: space-between;
+}
+
+#destaquep p {
+    text-align: center;
+}
+
+.planos {
+    width: 300px;
+    text-align: center;
+    margin: 20px auto;
+    border: 2px solid #41aa18;
+    border-radius: 50px;
+    padding: 20px;
+    box-shadow: 0px 0px 9px rgb(88, 116, 90);
+}
+
+.planos ul{
+    text-align: left;
+}
+
+.planos p span{
+    font-size: 22pt;
+    color: rgb(45, 5, 88);
+}
+
+#contato{
+    display: flex;
+    justify-content: space-around;
+}
+
+input, textarea{
+    display: block;
+    background-color: #cccccc;
+    margin: 20px;
+    padding:10px;
+    width: 300px;
+    border-radius: 20px;
+    border:none;
+ }
+
+ #contato button{
+     font-size: 18pt;
+     width: 100%;
+     height: 50px;
+     color: #ffffff;
+    background-color: rgb(193, 152, 237);
+    border-radius: 50px;
+    border: none;
+    box-shadow: 0px 0px 5px #000;
+ }
